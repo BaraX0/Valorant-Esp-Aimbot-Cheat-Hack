@@ -8,10 +8,10 @@ namespace VALROM {
  game_instance // TYPE=uintptr_t
         constexpr uintptr_t persistent_level = 0x38; // world + persistent_level // TYPE=uintptr_t
 
-        constexpr uintptr_t local_player_array = 0x40; // game_instance + local_player_array // TYPE=uintptr_t
+        constexpr uintptr_t local_player_array = 0x44; // game_instance + local_player_array // TYPE=uintptr_t
         constexpr uintptr_t local_player_controller = 0x38; // local_player + local_player_controller // TYPE=uintptr_t
         constexpr uintptr_t local_player_pawn = 0x460; // local_player_controller + local_player_pawn // TYPE=uintptr_t (=actor)
-        constexpr uintptr_t control_rotation = 0x440; // local_player_controller + control_rotation // TYPE=Vector3
+        constexpr uintptr_t control_rotation = 0x470; // local_player_controller + control_rotation // TYPE=Vector3
 
         constexpr uintptr_t camera_manager = 0x478; // local_player_controller + camera_manager // TYPE=uintptr_t
         constexpr uintptr_t camera_position = 0x1240; // camera_manager + camera_position // TYPE=Vector3
