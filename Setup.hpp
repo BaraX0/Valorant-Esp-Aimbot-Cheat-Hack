@@ -11,6 +11,7 @@ namespace VALROM {
 			return;
 		}
 
+		
 		GLFWmonitor* monitor = glfwGetPrimaryMonitor();
 		if (!monitor) {
 			fprintf(stderr, skCrypt("Failed to get primary monitor!\n"));
