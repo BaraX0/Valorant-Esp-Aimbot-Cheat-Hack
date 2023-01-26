@@ -1,5 +1,4 @@
-# Valorant Esp Aimbot Cheat/Hack Undetected 23
-/1
+# Valorant Esp Aimbot Cheat/Hack Undetected 26/1
 Just updated to lastest patch 
 DirectX12 required
 
